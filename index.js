@@ -35,8 +35,8 @@ t2 = new Withdrawal(9.99);
 t2.commit();
 console.log('Transaction 2: ', t2);
 
-t3 = new Deposit(10.75);
+t3 = new Deposit(120.00);
 t3.commit();
-console.log('Transaction 3: ', t3);
+console.log('Transaction 3:', t3);
 
 console.log('Balance:', balance);
